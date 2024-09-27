@@ -1,0 +1,9 @@
+POST localhost:8080/transactions/authorize
+Content-Type: application/json
+
+{
+  "accountId": "1",
+  "totalAmount": 1,
+  "mcc": "12",
+  "merchant": "special texno soft"
+}
